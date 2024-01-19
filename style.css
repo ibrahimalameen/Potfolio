@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header {
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.personal-info {
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+nav {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
