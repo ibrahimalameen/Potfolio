@@ -37,3 +37,46 @@ nav a:hover {
   text-decoration: underline;
   font-weight: bold;
 }
+
+#about-me {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+  width: 80%;
+}
+
+.dev-img {
+  width: 1200px;
+  margin-right: 80px;
+}
+
+.dev-about p {
+  text-align: justify;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#skills {
+  margin: auto;
+}
+
+#skills h1 {
+  font-size: 50px;
+}
+
+.skill {
+  border: 2px solid black;
+  margin: 20px auto;
+  display: inline;
+}
+
+.skill-name {
+  font-size: 30px;
+}
+
+.skill-experience {
+  font-size: 20px;
+}
